@@ -1,3 +1,3 @@
 # hello-world
 
-What up mofos????
+Hello world!
