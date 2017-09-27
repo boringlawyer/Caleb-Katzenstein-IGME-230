@@ -1,0 +1,39 @@
+body
+{
+	background-color: teal;
+}
+
+#creme
+{
+    color: whitesmoke;
+}
+
+#kadayif
+{
+    color: gold;
+}
+
+h2
+{
+    margin-bottom: 0px;
+}
+
+a:hover
+{
+    background-color: darkblue;
+}
+
+a:visited
+{
+    color: purple;
+}
+
+a:link
+{
+    color: magenta;
+}
+
+a:active
+{
+    color: indianred;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8" />
+        <title>Transitions and Animation</title>
+        <style>
+            .menu
+            {
+                background-color : crimson;
+                color : white;
+                height : 1em;
+                width : 200px;
+                overflow :hidden;
+                transition : 1s;
+                float : left;
+                font-family : sans-serif;
+            }
+            
+            .menu:hover
+            {
+                height : 14em;
+            }
+            a, li
+            {
+                text-decoration : none;
+            }
+            #projects:hover
+            {
+                height : 6em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "menu">
+            <strong>My ICEs</strong>
+            <ul>
+                <li><a href = "https://people.rit.edu/~spbics/230-04.shtml">Class List</a></li>
+                <li><a href = "https://github.com/boringlawyer/Caleb-Katzenstein-IGME-230">Github Repository</a></li>
+                <li><a href = "../ICE2A/cremebrulee.html">Creme Brulee</a></li>
+                <li><a href = "../Recipe_ICE/kadayif.html">Kadayif</a></li>
+                <li><a href= "../3A/tables.html">Tables</a></li>
+                <li><a href = "../3B/page1.html">ICE 3B Part A</a></li>
+                <li><a href ="../3B/tabs1.html">Tabs 1</a></li>
+                <li><a href="../3B/tabs2.html">Tabs 2</a></li>
+                <li><a href="../3B/tabs3.html">Tabs 3</a></li>
+                <li><a href="../3B/tabs5.html">Tabs 5</a></li>
+            </ul>
+        </div>
+        <div class = "menu" id = "projects">
+            <strong>My Projects</strong>
+            <ul>
+                <li><a href = "../../project1.html">Project 1</a></li>
+                <li><a href = "../../project2.html">Project 2</a></li>
+                <li><a href = "../../project3.html">Project 3</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
