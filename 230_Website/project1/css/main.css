@@ -1,0 +1,141 @@
+body
+{
+    color: white;
+    background-color: crimson;
+}
+
+.subsection
+{
+    border-color: black;
+    border-style: solid;
+    border-width: 12px;
+    position: relative; top: 50px;
+    margin: auto;
+    width: 835px;
+}
+
+.subheader
+{
+    font-size: 24px;
+}
+
+.button
+{
+    background-color: white;
+    color: crimson;
+    display: inline;
+    margin-right: 75px;
+    margin-bottom: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+}
+
+nav
+{
+    display: block;
+    width: 60%;
+    margin: auto;
+    position: relative; left: 110px; top: 10px;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 25px;
+}
+#current
+{
+    background-color: gold;
+}
+
+p
+{
+    font-size: 20px;
+    margin-top: 3em;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover .button
+{
+    background-color: grey;
+}
+
+.textlink
+{
+    text-decoration: underline;
+    color: white;
+}
+
+header
+{
+    align-content: center;
+}
+
+.textlink:hover
+{
+    color:lightblue;
+}
+
+.captionedimage
+{
+    font-size : 18px;
+    font-style: italic;
+    width: 200px;
+}
+
+img
+{
+    border-style: solid;
+    border-width: 3px;
+    border-color: grey;
+}
+
+@media screen and (max-width: 1450px)
+{
+    .button
+    {
+        display: block;
+        max-width: 200px;
+    }
+    
+    .subsection
+    {
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    .subsection
+    {
+        width: 210px;
+    }
+    
+    h1
+    {
+        position: relative; left: 20px;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    nav
+    {
+        position: relative; left: -10px;
+    }
+    
+    .button
+    {
+        min-width: 100px;
+    }
+}
